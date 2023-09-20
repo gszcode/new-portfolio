@@ -1,10 +1,10 @@
-import logo from '/assets/logo.png'
-import bars_down from '/assets/bars-arrow-down.svg'
-import bars_up from '/assets/bars-arrow-up.svg'
 import './Header.css'
+import logo from '/assets/logo.png'
+import bars from '/assets/bars.svg'
+import close from '/assets/close.svg'
 import SMNavbar from '../Navbar/SMNavbar'
-import { useState } from 'react'
 import LGNavbar from '../Navbar/LGNavbar'
+import { useState } from 'react'
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -20,8 +20,8 @@ function Header() {
         </a>
         <div className="bars">
           <img
-            src={openMenu ? bars_up : bars_down}
-            alt={openMenu ? 'Bars Down' : 'Bars Up'}
+            src={openMenu ? close : bars}
+            alt={openMenu ? 'Bars' : 'Close'}
             onClick={handleClick}
           />
         </div>
