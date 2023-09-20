@@ -1,0 +1,37 @@
+.navbarLg {
+  display: none;
+}
+.navbarLg .menuLg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+}
+.menuLg .item {
+  list-style: none;
+}
+.menuLg .item a {
+  background: var(--main-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.menuLg .item a:hover {
+  background: var(--shadow-main-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Media querys */
+@media (min-width: 1000px) {
+  .navbarLg {
+    display: block;
+  }
+}
