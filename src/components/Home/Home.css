@@ -1,10 +1,12 @@
 .home_container {
   max-width: 1000px;
   width: 100%;
-  padding: 20px;
+  padding: 50px;
   padding-top: 120px;
   background-color: var(--background-color);
   box-shadow: var(--box-shadow-color);
+}
+.home {
   position: relative;
 }
 .profile_image {
@@ -55,12 +57,21 @@
 .location {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -20px;
   left: 0;
   text-align: center;
   font-size: 12px;
   font-weight: 500;
   color: var(--text-color);
+}
+.main_logo {
+  display: none;
+  width: 250px;
+  height: auto;
+}
+.main_logo img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Media querys */
@@ -81,8 +92,25 @@
   }
 }
 @media (min-width: 1000px) {
+  .profile_image {
+    margin-left: 25px;
+  }
+  .introduction {
+    margin: -250px 0 0 auto;
+  }
+  .social {
+    justify-content: flex-end;
+    margin: 35px 205px 0px 10px;
+  }
   .social img {
     width: 35px;
     height: 35px;
+  }
+  .location {
+    text-align: start;
+    left: 50px;
+  }
+  .main_logo {
+    display: block;
   }
 }
