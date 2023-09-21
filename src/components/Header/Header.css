@@ -10,7 +10,8 @@
   position: fixed;
   z-index: 999;
 }
-.logo {
+.logo,
+.LG_logo {
   width: 180px;
   height: auto;
 }
@@ -19,7 +20,8 @@
   height: 35px;
 }
 .logo img,
-.bars img {
+.bars img,
+.LG_logo img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -28,6 +30,9 @@
 }
 .bars:hover img {
   transform: scale(1.1);
+}
+.LG_logo {
+  display: none;
 }
 
 /* Media querys */
@@ -51,8 +56,14 @@
 @media (min-width: 1000px) {
   .header {
     max-width: 1000px;
+    padding: 0 110px;
   }
-  .bars {
+  .bars,
+  .logo {
     display: none;
+  }
+  .LG_logo {
+    display: block;
+    width: 115px;
   }
 }
