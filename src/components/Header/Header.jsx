@@ -1,5 +1,6 @@
 import './Header.css'
 import logo from '/assets/logo.png'
+import LG_logo from '/assets/LG_logo.png'
 import bars from '/assets/bars.svg'
 import close from '/assets/close.svg'
 import SMNavbar from '../Navbar/SMNavbar'
@@ -17,6 +18,9 @@ function Header() {
       <header className="header" style={openMenu ? { boxShadow: 'none' } : {}}>
         <a href="#home" className="logo">
           <img src={logo} alt="Main Logo" />
+        </a>
+        <a href="#home" className="LG_logo">
+          <img src={LG_logo} alt="Main Logo" />
         </a>
         <div className="bars">
           <img
