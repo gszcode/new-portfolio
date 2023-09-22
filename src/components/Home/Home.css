@@ -94,7 +94,7 @@
   .location {
     text-align: start;
     left: 100px;
-    bottom: 0;
+    bottom: -5px;
   }
   .main_logo {
     display: block;
