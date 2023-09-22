@@ -1,14 +1,12 @@
 import './About.css'
-import ball_image from '/assets/img/ball.png'
-import pc_image from '/assets/img/pc.png'
 import Title from '../Title/Title'
+import Box from '../Box/Box'
 
 function About() {
   return (
     <section className="about_container">
       <Title title="Abot Me" />
-      <div className="about">
-        <img src={ball_image} alt="Ball Image" className="ball_img" />
+      <Box>
         <p>
           Como <span className="color">Desarrollador web</span>, disfruto
           especialmente de la maquetación y de implementar diseños en
@@ -21,8 +19,7 @@ function About() {
           <span className="color">Inglés</span>, no solo por necesidad, sino
           también porque es algo que me gusta.
         </p>
-        <img src={pc_image} alt="PC Image" className="pc_img" />
-      </div>
+      </Box>
     </section>
   )
 }
