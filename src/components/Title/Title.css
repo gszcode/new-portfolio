@@ -1,0 +1,14 @@
+.title {
+  font-size: 18px;
+  background: var(--main-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Media querys */
+@media (min-width: 1000px) {
+  .title {
+    font-size: 22px;
+  }
+}
