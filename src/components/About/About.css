@@ -1,0 +1,45 @@
+.about_container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 30px;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+.about {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow-color);
+  border-radius: 30px;
+  position: relative;
+}
+.about p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.about p .color {
+  font-weight: 600;
+  background: var(--main-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about .ball_img {
+  width: 40px;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.about .pc_img {
+  width: 60px;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  bottom: -15px;
+  left: -15px;
+}
