@@ -5,7 +5,6 @@
   padding: 50px;
   padding-top: 120px;
   background-color: var(--background-color);
-  box-shadow: var(--box-shadow-color);
 }
 .home {
   position: relative;
