@@ -34,7 +34,8 @@
 }
 .introduction h1 .color,
 .introduction p .color {
-  background: var(--shadow-main-color);
+  font-weight: 600;
+  background: var(--main-color);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -109,6 +110,7 @@
   .location {
     text-align: start;
     left: 50px;
+    bottom: -50px;
   }
   .main_logo {
     display: block;
