@@ -1,5 +1,6 @@
 .home_container {
   max-width: 1000px;
+  min-height: 100vh;
   width: 100%;
   padding: 50px;
   padding-top: 120px;
@@ -96,6 +97,9 @@
   .profile_image {
     margin-left: 25px;
   }
+  .home {
+    padding: 50px;
+  }
   .introduction {
     margin: -250px 0 0 auto;
   }
@@ -109,8 +113,8 @@
   }
   .location {
     text-align: start;
-    left: 50px;
-    bottom: -50px;
+    left: 100px;
+    bottom: 0;
   }
   .main_logo {
     display: block;
