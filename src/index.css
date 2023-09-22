@@ -4,15 +4,16 @@
   --color-white: #fff;
   --background-color: #f7f7f7;
   --background-body: #f0efeff8;
-  --box-shadow-color: 0 1px 4px rgba(146, 161, 176, 0.15);
+  --box-shadow-color: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
   --text-color: #252525;
   --main-color: var(
     --lineal-noti,
-    linear-gradient(90deg, #572ded 0%, #528dff 100%)
+    linear-gradient(90deg, #680606 0%, #ff0505 100%)
   );
   --shadow-main-color: var(
     --lineal-noti,
-    linear-gradient(90deg, #6a44f3ee 0%, #6497fcef 100%)
+    linear-gradient(90deg, #ff0505 0%, #680606 100%)
   );
 }
 
