@@ -25,21 +25,6 @@
   max-width: 500px;
   margin: 20px auto;
 }
-.introduction h1,
-.introduction p {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-color);
-  text-align: center;
-}
-.introduction h1 .color,
-.introduction p .color {
-  font-weight: 600;
-  background: var(--main-color);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .social {
   display: flex;
   justify-content: center;
@@ -83,10 +68,6 @@
   }
 }
 @media (min-width: 768px) {
-  .introduction h1,
-  .introduction p {
-    font-size: 18px;
-  }
   .social img {
     width: 35px;
     height: 35px;
