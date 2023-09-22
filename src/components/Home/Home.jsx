@@ -1,8 +1,8 @@
 import './Home.css'
-import profile from '/assets/profile.png'
-import logo from '/assets/logo.png'
-import linkedin from '/assets/linkedin.svg'
-import github from '/assets/github.svg'
+import profile from '/assets/img/profile.png'
+import logo from '/assets/img/logo.png'
+import linkedin from '/assets/icons/linkedin.svg'
+import github from '/assets/icons/github.svg'
 import Skills from '../Skills/Skills'
 
 function Home() {
@@ -25,7 +25,7 @@ function Home() {
           </h1>
           <p>
             Mi mayor interés es el <span className="color">Frontend</span> y es
-            donde mejor me desenvuelvo, igualmente también me gusta el{' '}
+            donde mejor me desenvuelvo, aúnque también me gusta el{' '}
             <span className="color">Backend</span>.
           </p>
           <span className="location color">Buenos Aires, Argentina.</span>
