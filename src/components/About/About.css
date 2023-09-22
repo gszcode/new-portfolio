@@ -16,17 +16,6 @@
   border-radius: 30px;
   position: relative;
 }
-.about p {
-  font-size: 14px;
-  font-weight: 500;
-}
-.about p .color {
-  font-weight: 600;
-  background: var(--main-color);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .about .ball_img {
   width: 40px;
   height: auto;
