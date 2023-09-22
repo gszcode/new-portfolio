@@ -27,14 +27,13 @@
   font-weight: 600;
   letter-spacing: 0.5px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease-in;
 }
 .menu .item a:hover {
   background: var(--shadow-main-color);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border-bottom: 1px solid #ccc;
 }
 .show {
   opacity: 1;
