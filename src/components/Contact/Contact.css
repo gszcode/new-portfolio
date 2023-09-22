@@ -1,0 +1,33 @@
+.contact_container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 30px;
+  background-color: var(--second-background-body);
+  text-align: center;
+}
+.contact_container p {
+  max-width: 500px;
+  margin: 20px auto;
+}
+.contact p {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contact p img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+/* Media querys */
+@media (min-width: 1000px) {
+  .contact_container p {
+    font-size: 16px;
+  }
+}
