@@ -2,7 +2,7 @@ export const portfolio = [
   {
     id: 1,
     name: 'Sharpness',
-    img: 'public/assets/img/project-05.png',
+    img: '/assets/img/project-05.png',
     tech: [
       '/assets/icons/typescript.svg',
       '/assets/icons/next.svg',
@@ -14,7 +14,7 @@ export const portfolio = [
   {
     id: 2,
     name: 'Maular',
-    img: 'public/assets/img/project-04.png',
+    img: '/assets/img/project-04.png',
     tech: [
       '/assets/icons/javascript.svg',
       '/assets/icons/next.svg',
@@ -26,7 +26,7 @@ export const portfolio = [
   {
     id: 3,
     name: 'DewiPool',
-    img: 'public/assets/img/project-03.png',
+    img: '/assets/img/project-03.png',
     tech: [
       '/assets/icons/javascript.svg',
       '/assets/icons/next.svg',
@@ -38,7 +38,7 @@ export const portfolio = [
   {
     id: 4,
     name: 'Consultant',
-    img: 'public/assets/img/project-02.png',
+    img: '/assets/img/project-02.png',
     tech: [
       '/assets/icons/react.svg',
       '/assets/icons/css.svg',
@@ -51,7 +51,7 @@ export const portfolio = [
   {
     id: 5,
     name: 'PsyCare',
-    img: 'public/assets/img/project-01.png',
+    img: '/assets/img/project-01.png',
     tech: [
       '/assets/icons/javascript.svg',
       '/assets/icons/react.svg',
@@ -59,5 +59,17 @@ export const portfolio = [
     ],
     url: 'https://psycares.netlify.app/',
     repository: 'https://github.com/gszcode/psycare'
+  },
+  {
+    id: 6,
+    name: 'Portfolio',
+    img: '/assets/img/project-06.png',
+    tech: [
+      '/assets/icons/javascript.svg',
+      '/assets/icons/react.svg',
+      '/assets/icons/css.svg'
+    ],
+    url: 'https://gabriel-sanchez.vercel.app/',
+    repository: 'https://github.com/gszcode/new-portfolio'
   }
 ]
