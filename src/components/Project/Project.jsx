@@ -18,7 +18,7 @@ function Project({ id, name, img, tech, url, repository }) {
         <div className="project_link">
           <a href={url} target="_blank" rel="noreferrer">
             <img
-              src="public/assets/icons/globe.svg"
+              src="/assets/icons/globe.svg"
               alt="Globe Icon"
               title="Ver Proyecto"
             />
@@ -29,9 +29,7 @@ function Project({ id, name, img, tech, url, repository }) {
             rel="noreferrer"
           >
             <img
-              src={`public/assets/icons/${
-                repository ? 'github.svg' : 'padlock.svg'
-              }`}
+              src={`/assets/icons/${repository ? 'github.svg' : 'padlock.svg'}`}
               alt="GitHub Icon"
               title="Ver Repositorio"
             />
