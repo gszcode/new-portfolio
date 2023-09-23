@@ -4,7 +4,7 @@ import Box from '../Box/Box'
 
 function About() {
   return (
-    <section className="about_container">
+    <section className="about_container" id="about">
       <Title title="Abot Me" />
       <Box>
         <p>

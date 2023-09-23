@@ -7,7 +7,7 @@ import Box from '../Box/Box'
 
 function Contact() {
   return (
-    <section className="contact_container">
+    <section className="contact_container" id="contact">
       <Title title="Contact" />
       <p>
         Si mi perfil te interesa y deseas conocerme mejor, puedes contactarme

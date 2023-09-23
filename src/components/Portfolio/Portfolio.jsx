@@ -5,7 +5,7 @@ import Project from '../Project/Project'
 
 function Portfolio() {
   return (
-    <section className="portfolio_container">
+    <section className="portfolio_container" id="portfolio">
       <Title title="Projects" />
       <div className="projects_container">
         {portfolio.map((project) => (
