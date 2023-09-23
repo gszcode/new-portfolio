@@ -20,7 +20,6 @@ function Header() {
       if (menuOpen && !event.target.closest('.header')) {
         setMenuOpen(false)
       }
-      console.log(event.target.closest('.header'))
     }
 
     document.addEventListener('mousedown', handleDocumentClick)
