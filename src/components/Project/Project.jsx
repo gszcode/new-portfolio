@@ -2,11 +2,13 @@ import './Project.css'
 
 // eslint-disable-next-line react/prop-types
 function Project({ id, name, img, tech, url, repository }) {
+  let path = 'public/assets/img/'
+
   return (
     <article className="project" key={id}>
       <h3 className="project_title">{name}</h3>
       <div className="img_container">
-        <img src={`public/assets/img/${img}`} alt={`${name} Project`} />
+        <img src={path + img} alt={`${name} Project`} />
       </div>
       <div className="tech_project">
         <div className="tech_used">
