@@ -6,13 +6,13 @@ function Project({ id, name, img, tech, url, repository }) {
     <article className="project" key={id}>
       <h3 className="project_title">{name}</h3>
       <div className="img_container">
-        <img src={img} alt={`${name} Project`} />
+        <img src={`/assets/img/${img}`} alt={`${name} Project`} />
       </div>
       <div className="tech_project">
         <div className="tech_used">
           {/* eslint-disable-next-line react/prop-types */}
           {tech.map((icon) => (
-            <img key={id} src={icon} alt={`${name} Icon`} />
+            <img key={id} src={`/assets/icons/${icon}`} alt={`${name} Icon`} />
           ))}
         </div>
         <div className="project_link">
