@@ -5,17 +5,34 @@ import bars from '/assets/icons/bars.svg'
 import close from '/assets/icons/close.svg'
 import SMNavbar from '../Navbar/SMNavbar'
 import LGNavbar from '../Navbar/LGNavbar'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
+// eslint-disable-next-line react/prop-types
 function Header() {
-  const [openMenu, setOpenMenu] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const handleClick = () => {
-    setOpenMenu(!openMenu)
+    setMenuOpen(!menuOpen)
   }
+
+  useEffect(() => {
+    function handleDocumentClick(event) {
+      if (menuOpen && !event.target.closest('.header')) {
+        setMenuOpen(false)
+      }
+      console.log(event.target.closest('.header'))
+    }
+
+    document.addEventListener('mousedown', handleDocumentClick)
+
+    return () => {
+      document.removeEventListener('mousedown', handleDocumentClick)
+    }
+  }, [menuOpen])
+
   return (
     <>
-      <header className="header" style={openMenu ? { boxShadow: 'none' } : {}}>
+      <header className="header" style={menuOpen ? { boxShadow: 'none' } : {}}>
         <a href="#home" className="logo">
           <img src={logo} alt="Main Logo" />
         </a>
@@ -24,8 +41,8 @@ function Header() {
         </a>
         <div className="bars">
           <img
-            src={openMenu ? close : bars}
-            alt={openMenu ? 'Bars' : 'Close'}
+            src={menuOpen ? close : bars}
+            alt={menuOpen ? 'Bars' : 'Close'}
             onClick={handleClick}
           />
         </div>
@@ -33,7 +50,7 @@ function Header() {
         <LGNavbar />
       </header>
       {/* Small Navbar  */}
-      <SMNavbar menu={openMenu} />
+      <SMNavbar menu={menuOpen} />
     </>
   )
 }
