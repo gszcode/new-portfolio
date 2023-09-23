@@ -23,7 +23,11 @@ function Project({ id, name, img, tech, url, repository }) {
               title="Ver Proyecto"
             />
           </a>
-          <a href={repository} target="_blank" rel="noreferrer">
+          <a
+            href={repository ? repository : '#portfolio'}
+            target={repository && '_blank'}
+            rel="noreferrer"
+          >
             <img
               src={`public/assets/icons/${
                 repository ? 'github.svg' : 'padlock.svg'
