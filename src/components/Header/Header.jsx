@@ -1,6 +1,6 @@
 import './Header.css'
-import logo from '/assets/img/logo.png'
-import LG_logo from '/assets/img/LG_logo.png'
+import logo from '/assets/logo.png'
+import LG_logo from '/assets/LG_logo.png'
 import bars from '/assets/icons/bars.svg'
 import close from '/assets/icons/close.svg'
 import SMNavbar from '../Navbar/SMNavbar'

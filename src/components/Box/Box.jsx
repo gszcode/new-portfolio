@@ -1,6 +1,6 @@
 import './Box.css'
-import ball_image from '/assets/img/ball.png'
-import pc_image from '/assets/img/pc.png'
+import ball_image from '/assets/ball.png'
+import pc_image from '/assets/pc.png'
 
 // eslint-disable-next-line react/prop-types
 function Box({ children, contact }) {
