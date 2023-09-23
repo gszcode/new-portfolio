@@ -34,7 +34,7 @@ export const portfolio = [
   {
     id: 5,
     name: 'PsyCare',
-    img: 'psycare_.png',
+    img: 'psycare_project.png',
     tech: ['javascript.svg', 'react.svg', 'css.svg'],
     url: 'https://psycares.netlify.app/',
     repository: 'https://github.com/gszcode/psycare'
