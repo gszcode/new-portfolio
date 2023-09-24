@@ -19,7 +19,8 @@ function Home() {
           <h1>
             Hola, Soy <span className="color">Gabriel Sanchez.</span>
             <br />
-            Soy un apasionado del <span className="color">Desarrollo Web</span>.
+            Soy un entusiasta de la creación y el{' '}
+            <span className="color">Desarrollo Web</span>.
             <br />
             <br />
           </h1>

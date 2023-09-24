@@ -6,7 +6,7 @@ function Skills() {
   return (
     <>
       <section className="skills_container">
-        <Title title="My Skills" />
+        <Title title="Habilidades" />
         <div className="tech_container">
           {technologies.slice(0, 5).map(({ id, tech, icon }) => (
             <img key={id} src={icon} alt={`${tech} Icon`} title={tech} />

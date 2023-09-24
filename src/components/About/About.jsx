@@ -5,7 +5,7 @@ import Box from '../Box/Box'
 function About() {
   return (
     <section className="about_container" id="about">
-      <Title title="Abot Me" />
+      <Title title="Sobre mi" />
       <Box>
         <p>
           Como <span className="color">Desarrollador web</span>, disfruto
