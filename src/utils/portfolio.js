@@ -1,14 +1,29 @@
 export const portfolio = [
   {
     id: 1,
+    name: 'Imperio Shoes',
+    img: 'ecommerce_project.PNG',
+    tech: [
+      'typescript.svg',
+      'next.svg',
+      'sass.svg',
+      'node.svg',
+      'express.svg',
+      'postgresql.svg'
+    ],
+    url: 'https://imperio-shoes.vercel.app/',
+    repository: 'https://github.com/gszcode/E-commerce-Client'
+  },
+  {
+    id: 2,
     name: 'Sharpness',
     img: 'sharpness_project.png',
-    tech: ['typescript.svg', 'next.svg', 'css.svg'],
+    tech: ['typescript.svg', 'react.svg', 'css.svg'],
     url: 'https://sharpness.vercel.app/',
     repository: 'https://github.com/gszcode/sharpness'
   },
   {
-    id: 2,
+    id: 3,
     name: 'Maular',
     img: 'maular_project.png',
     tech: ['javascript.svg', 'next.svg', 'sass.svg'],
@@ -16,7 +31,7 @@ export const portfolio = [
     repository: ''
   },
   {
-    id: 3,
+    id: 4,
     name: 'DewiPool',
     img: 'dewipool_project.png',
     tech: ['javascript.svg', 'next.svg', 'sass.svg'],
@@ -24,7 +39,7 @@ export const portfolio = [
     repository: ''
   },
   {
-    id: 4,
+    id: 5,
     name: 'Consultant',
     img: 'consultant_project.png',
     tech: ['react.svg', 'css.svg', 'node.svg', 'mongodb.svg'],
@@ -32,7 +47,7 @@ export const portfolio = [
     repository: 'https://github.com/gszcode/gscode'
   },
   {
-    id: 5,
+    id: 6,
     name: 'PsyCare',
     img: 'psycare_project.png',
     tech: ['javascript.svg', 'react.svg', 'css.svg'],
@@ -40,7 +55,7 @@ export const portfolio = [
     repository: 'https://github.com/gszcode/psycare'
   },
   {
-    id: 6,
+    id: 7,
     name: 'Portfolio',
     img: 'portfolio_project.png',
     tech: ['javascript.svg', 'react.svg', 'css.svg'],

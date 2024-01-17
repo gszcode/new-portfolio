@@ -4,7 +4,9 @@ import './Project.css'
 function Project({ id, name, img, tech, url, repository }) {
   return (
     <article className="project" key={id}>
-      <h3 className="project_title">{name}</h3>
+      <h3 className="project_title">
+        {name === 'Imperio Shoes' ? `${name} (en desarrollo)` : name}
+      </h3>
       <div className="img_container">
         <img src={`/assets/${img}`} alt={`${name} Project`} />
       </div>

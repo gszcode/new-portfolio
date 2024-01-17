@@ -1,5 +1,5 @@
 import './Home.css'
-import profile from '/assets/profile.png'
+import profile from '/assets/profile.jpeg'
 import logo from '/assets/logo.png'
 import linkedin from '/assets/icons/linkedin.svg'
 import github from '/assets/icons/github.svg'
