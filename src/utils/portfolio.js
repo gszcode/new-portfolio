@@ -4,7 +4,7 @@ export const portfolio = [
 		name: "EcommerceSHOP",
 		img: "shop_project.png",
 		tech: ["react.svg", "tailwind.svg", "node.svg", "express.svg", "mongodb.svg"],
-		url: "https://imperio-shoes.vercel.app/",
+		url: "https://shop-gsz.netlify.app/",
 		repository: "https://github.com/gszcode/Ecommerce-MERN",
 	},
 	{
