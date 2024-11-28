@@ -24,17 +24,20 @@ function Home() {
 						<br />
 					</h1>
 					<p>
-						Mi mayor interés es el <span className='color'>Frontend</span> y es donde mejor me desenvuelvo, aúnque
-						también me gusta el <span className='color'>Backend</span>.
+						Mi experiencia como desarrollador e interés están en el <span className='color'>Frontend</span> y es donde
+						mejor me desenvuelvo y me gusta trabajar, aúnque cuento con conocimientos en el{" "}
+						<span className='color'>Backend</span> y me gusta estar al tanto de ambas partes de un proyecto.
 					</p>
 					<span className='location color'>Buenos Aires, Argentina.</span>
 				</div>
 				<div className='social'>
 					<a href='https://www.linkedin.com/in/gszcode/' rel='noreferrer' title='Linkedin' target='_blank'>
 						<img src={linkedin} alt='Linkedin Icon' />
+						<span>Linkedin</span>
 					</a>
 					<a href='https://github.com/gszcode' rel='noreferrer' title='GitHub' target='_blank'>
 						<img src={github} alt='Github Icon' />
+						<span>Github</span>
 					</a>
 				</div>
 			</div>
